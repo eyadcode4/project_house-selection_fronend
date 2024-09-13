@@ -1,8 +1,9 @@
 <script setup>
 </script>
+
 <template>
     <div class="consult">
-      <h2>Consult Form</h2>
+      <h1>Consult Form</h1>
     </div>
   </template>
   
