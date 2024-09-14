@@ -5,7 +5,7 @@
     <div>
         <div class="card" style="width: 18rem;">
             
-            <img src="../assets/imag/" class="card-img-top" alt="up">
+            <img src="../assets/imag/down.png" class="card-img-top" alt="up">
 
             <div class="card-body">
                 <h5 class="card-title">school</h5>
