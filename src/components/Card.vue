@@ -4,16 +4,18 @@
 <template>
     <div>
         <div class="card" style="width: 18rem;">
-  <img src="../assets/imag/phtotHome.png" class="card-img-top" alt="">
-  <div class="card-body">
-    <h5 class="card-title">John Doe</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn">Know More</a>
-  </div>
-</div>
-  
-  
-  </div>
+            
+            <img src="../assets/imag/" class="card-img-top" alt="up">
+
+            <div class="card-body">
+                <h5 class="card-title">school</h5>
+                <p class="card-text">content.</p>
+                <a href="#" class="btn">Know More</a>
+             
+            </div>
+        </div>
+        
+    </div>
 </template>
 
 <style scoped>
