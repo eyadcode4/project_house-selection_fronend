@@ -30,7 +30,7 @@ header {
 }
 
 nav {
-  width: 100%;
+  width: 200%;
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
@@ -41,7 +41,7 @@ nav a.router-link-exact-active {
 }
 
 nav a.router-link-exact-active:hover {
-  background-color: transparent;
+  background-color: rgb(135, 135, 208);
 }
 
 nav a {

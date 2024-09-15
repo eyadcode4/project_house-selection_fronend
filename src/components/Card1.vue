@@ -17,9 +17,9 @@
             <div class="col-2">
                 <div class="card" >
                 <div class="card-body">
-                    <img src="../assets/imag/school.jpg" class="card-img-top" alt="up">
+                    <img src="../assets/imag/bank.jpg" class="card-img-top" alt="up">
                     <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
-                    <a href="#" class="btn">Know More</a>
+                   
                 </div>
                 </div>
 
@@ -27,9 +27,9 @@
             <div class="col-2">
                 <div class="card" >
                 <div class="card-body">
-                    <img src="../assets/imag/school.jpg" class="card-img-top" alt="up">
+                    <img src="../assets/imag/busStop.png" class="card-img-top" alt="up">
                     <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
-                    <a href="#" class="btn">Know More</a>
+                    
                 </div>
                 </div>
 
@@ -37,9 +37,9 @@
             <div class="col-2">
                 <div class="card" >
                 <div class="card-body">
-                    <img src="../assets/imag/school.jpg" class="card-img-top" alt="up">
+                    <img src="../assets/imag/hisp.jpg" class="card-img-top" alt="up">
                     <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
-                    <a href="#" class="btn">Know More</a>
+                    
                 </div>
                 </div>
 
@@ -47,9 +47,9 @@
             <div class="col-2">
                 <div class="card" >
                 <div class="card-body">
-                    <img src="../assets/imag/school.jpg" class="card-img-top" alt="up">
+                    <img src="../assets/imag/resturant.jpg" class="card-img-top" alt="up">
                     <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
-                    <a href="#" class="btn">Know More</a>
+                    
                 </div>
                 </div>
 
@@ -57,9 +57,9 @@
             <div class="col-2">
                 <div class="card" >
                 <div class="card-body">
-                    <img src="../assets/imag/school.jpg" class="card-img-top" alt="up">
+                    <img src="../assets/imag/verdura.jpg" class="card-img-top" alt="up">
                     <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
-                    <a href="#" class="btn">Know More</a>
+                    
                 </div>
                 </div>
 
