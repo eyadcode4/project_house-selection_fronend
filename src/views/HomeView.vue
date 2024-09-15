@@ -1,10 +1,11 @@
 <script setup>
+import Card1 from '@/components/Card1.vue';
 import Card from '../components/Card.vue';
 import TheWelcome from '../components/Card.vue'
 </script>
 
 <template>
   <main>
-    <Card />
+    <Card1 />
   </main>
 </template>
