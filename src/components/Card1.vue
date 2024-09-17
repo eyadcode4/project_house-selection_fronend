@@ -81,6 +81,6 @@
   display: grid;
 }
 .card img {
-  width: 100%;
+  width: 150%;
 }
 </style>
