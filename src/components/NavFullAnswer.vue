@@ -6,11 +6,11 @@
       };
     },
     methods: {
-      consult() {
+        yourhouse() {
         
         //alert('Registro iniciado');
       
-      this.$router.push('consult');
+      this.$router.push('yourhouse');
       },
     },
   };
@@ -32,8 +32,8 @@
   
       
         <div class="d-flex align-items-center">
-          <button @click="consult" type="button" class="btn btn-primary me-3">
-            Consult
+          <button @click="yourhouse" type="button" class="btn btn-primary me-3">
+            Your House
           </button>
         </div>
       </div>

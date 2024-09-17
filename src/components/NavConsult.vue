@@ -6,11 +6,11 @@
       };
     },
     methods: {
-      consult() {
+      showresult() {
         
         //alert('Registro iniciado');
       
-      this.$router.push('consult');
+      this.$router.push('shortanswer');
       },
     },
   };
@@ -32,8 +32,8 @@
   
       
         <div class="d-flex align-items-center">
-          <button @click="consult" type="button" class="btn btn-primary me-3">
-            Consult
+          <button @click="showresult" type="button" class="btn btn-primary me-3">
+            Show Result
           </button>
         </div>
       </div>

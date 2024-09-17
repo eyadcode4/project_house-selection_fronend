@@ -19,7 +19,7 @@ export default {
     },
     submitLogin() {
       console.log('Login with:', this.loginUser, this.loginPassword);
-      this.$router.push('consultview');
+      this.$router.push('fullanswer');
     },
     submitRegister() {
       console.log('Register with:', this.registerUsername, this.registerPassword, this.registerConfirmPassword);
