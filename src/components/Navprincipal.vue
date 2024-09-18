@@ -22,13 +22,9 @@
       <div class="container">
        
         <a class="navbar-brand me-2">
-          <img src="../assets/imag/logrealstate.webp" 
-            height="80" 
-            alt="Logo inmobiliaria" 
-            loading="lazy" 
-            style="margin-top: -1px;" 
-          />
+          <img src="../assets/imag/logrealstate.webp" height="80" alt="Logo inmobiliaria" loading="lazy" style="margin-top: -1px;"/>
         </a>
+        
   
       
         <div class="d-flex align-items-center">
