@@ -13,7 +13,7 @@ import Footer from '@/components/Footer.vue';
   <main>
     
 
-    <Card1 />
+    <Card />
     
   </main>
   <Footer></Footer>
