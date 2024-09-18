@@ -6,8 +6,9 @@
     <div class="card" style="width: 12rem;">
       <div class="card-body">
         <img src="../assets/imag/AnnualPlot-2023-1.webp" class="card-img-top" alt="up">
-        
-        <a href="#" class="btn">Know More</a>
+        <img src="../assets/imag/sol.jpg" class="card-img-top" alt="up">
+        <img src="../assets/imag/rain.jpg" class="card-img-top" alt="up">
+       
       </div>
     </div>
     <div class="card" style="width: 12rem;">
@@ -33,15 +34,14 @@
     </div>
     <div class="card" style="width: 12rem;">
       <div class="card-body">
-        <img src="../assets/imag/logrealstate.webp" class="card-img-top" alt="up">
-        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
-        <a href="#" class="btn">Know More</a>
+        <img src="../assets/imag/cortaagua.jpg" class="card-img-top" alt="up">
+                <a href="#" class="btn">Know More</a>
       </div>
     </div>
     <div class="card" style="width: 12rem;">
       <div class="card-body">
-        <img src="../assets/imag/phtotHome.png" class="card-img-top" alt="up">
-        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <img src="../assets/imag/corte de luz.jpg" class="card-img-top" alt="up">
+        
         <a href="#" class="btn">Know More</a>
       </div>
     </div>
@@ -68,7 +68,91 @@
     </div>
     <div class="card" style="width: 12rem;">
       <div class="card-body">
-        <img src="../assets/imag/resturant.jpg" class="card-img-top" alt="up">
+        <img src="../assets/imag/direction.jpg" class="card-img-top" alt="up">
+        
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/exterior.jpg" class="card-img-top" alt="up">
+        
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/garden.png" class="card-img-top" alt="up">
+        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/kid.jpg" class="card-img-top" alt="up">
+        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/library.jpg" class="card-img-top" alt="up">
+        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/lift.jpg" class="card-img-top" alt="up">
+        
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/metro.png" class="card-img-top" alt="up">
+        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/pan.jpg" class="card-img-top" alt="up">
+        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/peatonal.jpg" class="card-img-top" alt="up">
+        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/pescado.jpg" class="card-img-top" alt="up">
+        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/rain.jpg" class="card-img-top" alt="up">
+        
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/sea.jpg" class="card-img-top" alt="up">
+        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/urban area.jpg" class="card-img-top" alt="up">
         <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
         <a href="#" class="btn">Know More</a>
       </div>
@@ -94,23 +178,7 @@
         <a href="#" class="btn">Know More</a>
       </div>
     </div>
-    <div class="card" style="width: 12rem;">
-      <div class="card-body">
-        <img src="../assets/imag/school.jpg" class="card-img-top" alt="up">
-        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
-        <a href="#" class="btn">Know More</a>
-      </div>
-    </div>
-    <div class="card" style="width: 12rem;">
-      <div class="card-body">
-        <img src="../assets/imag/school.jpg" class="card-img-top" alt="up">
-        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
-        <a href="#" class="btn">Know More</a>
-      </div>
-    </div>
-   
-    
-    
+        
   </div>
 </template>
 
@@ -139,7 +207,7 @@
 
 .card .card-title {
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.0em;
   padding: 0.1em;
 }
 
