@@ -16,6 +16,6 @@ import Footer from '@/components/Footer.vue';
     <Card />
     
   </main>
-  <Footer></Footer>
+ 
 
 </template>

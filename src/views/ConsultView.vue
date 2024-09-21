@@ -1,4 +1,5 @@
 <script setup>
+import ConsultForm from '@/components/ConsultForm.vue';
 import NavConsult from '@/components/NavConsult.vue';
 
 </script>
@@ -9,10 +10,11 @@ import NavConsult from '@/components/NavConsult.vue';
         <NavConsult></NavConsult>
       </header>
 
-      <h1>Consult Form</h1>
+      <h1>Datos personales importantes para comprar casa</h1>
+     <ConsultForm></ConsultForm>
 
     </div>
-  </template>
+</template>
   
   <style scoped>
   

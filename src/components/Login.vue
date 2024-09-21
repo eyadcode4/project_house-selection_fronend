@@ -123,30 +123,32 @@ export default {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: "Jomolhari", serif;
   color: #650000;
+  font-weight: bolder;
+  font-size: x-large;
 }
 
 #botonAcceder, #botonRegistrar {
-  background-color: #650000;
+  background-color: #514c9b;
   color: white;
   font-weight: bold;
   width: 40%;
 }
 
 .nav-link {
-  background-color: #c25e5e;
+  background-color: #5d62c1;
   color: #3d0101;
   font-weight: bold;
   margin-bottom: 40px;
 }
 
 .nav-link.active {
-  background-color: #650000;
+  background-color: #9446d9;
   color: white;
 }
 
 .form-control {
-  border: solid 1px;
-  border-color: #650000;
+  border: solid 3px;
+  border-color: #1d0d9a;
 }
 
 .button-container {
@@ -154,7 +156,5 @@ export default {
   justify-content: center;
   margin-bottom: 30px;
 }
-.login-box label{
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.50);
-}
+
 </style>
