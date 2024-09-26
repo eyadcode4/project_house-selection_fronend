@@ -16,7 +16,7 @@ import NavFullAnswer from '@/components/NavFullAnswer.vue';
       
 
     </div>
-  </template>
+</template>
   
   <style scoped>
   

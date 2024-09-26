@@ -1,4 +1,5 @@
 <script setup>
+import AgeHijos from '@/components/AgeHijos.vue';
 import ConsultForm from '@/components/ConsultForm.vue';
 import NavConsult from '@/components/NavConsult.vue';
 
@@ -11,7 +12,8 @@ import NavConsult from '@/components/NavConsult.vue';
       </header>
 
       <h1>Datos personales importantes para comprar casa</h1>
-     <ConsultForm></ConsultForm>
+     <!-- <ConsultForm></ConsultForm> -->
+     <AgeHijos></AgeHijos>
 
     </div>
 </template>

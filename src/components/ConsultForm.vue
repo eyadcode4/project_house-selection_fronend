@@ -2,7 +2,7 @@
 import { ref } from "vue";
 
 const fecha = ref("");
-const edad = ref("");
+const edad = ref();
 const joven = ref("");
 const Comportamiento = ref("");
 const mensaje = ref("");
