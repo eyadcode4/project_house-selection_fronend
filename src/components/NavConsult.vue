@@ -1,19 +1,25 @@
 <script>
-  export default {
-    data() {
-      return {
-        logoSrc: '', 
-      };
-    },
-    methods: {
-      showresult() {
-        
-        //alert('Registro iniciado');
-      
-      this.$router.push('shortanswer');
-      },
-    },
-  };
+  // 
+  
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+
+export default {
+  setup() {
+    const logoSrc = ref(''); // Definir el estado usando ref
+    const router = useRouter(); // Obtener la instancia del enrutador
+
+    const showresult = () => {
+      // alert('Registro iniciado');
+      router.push('shortanswer'); // Navegar a 'shortanswer'
+    };
+
+    return {
+      logoSrc,
+      showresult,
+    };
+  },
+};
 </script>
 
 <template>
