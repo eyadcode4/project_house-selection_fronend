@@ -1,28 +1,38 @@
 <script>
+import AdminView from '@/views/AdminView.vue';
+import { ref } from "vue";
+import { useRouter } from 'vue-router';
+
 export default {
-  data() {
-    return {
-      currentTab: 'login',
-      loginEmail: '',
-      loginPassword: '',
-      
+  setup() {
+    const currentTab = ref('login');
+    const loginEmail = ref('');
+    const loginPassword = ref('');
+    const router = useRouter();
+
+    const setTab = (tab) => {
+      currentTab.value = tab;
     };
-  },
-  methods: {
-    setTab(tab) {
-      this.currentTab = tab;
-    },
-    isActiveTab(tab) {
-      return this.currentTab === tab;
-    },
-    submitLogin() {
-      console.log('Login with:', this.loginUser, this.loginPassword);
-      this.$router.push('fullanswer');
-    },
-    
+
+    const isActiveTab = (tab) => {
+      return currentTab.value === tab;
+    };
+
+    const submitLogin = () => {
+      console.log('Login with:', loginEmail.value, loginPassword.value);
+      router.push('AdminView');
+    };
+
+    return {
+      currentTab,
+      loginEmail,
+      loginPassword,
+      setTab,
+      isActiveTab,
+      submitLogin
+    };
   }
 };
-
 </script>
 
 <template>
@@ -32,7 +42,7 @@ export default {
         <li class="nav-item" role="presentation">
           <a class="nav-link" :class="{ active: isActiveTab('login') }" @click="setTab('login')"
              id="tab-login" href="#pills-login" role="tab"
-             aria-controls="pills-login" :aria-selected="isActiveTab('login')">Acceder</a>
+             aria-controls="pills-login" :aria-selected="isActiveTab('login')">Sign in</a>
         </li>
         
       </ul>
@@ -41,17 +51,17 @@ export default {
         <div class="tab-pane fade" :class="{ 'show active': isActiveTab('login') }" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
           <form @submit.prevent="submitLogin">
             <div class="form-outline mb-4">
-              <label class="form-label" for="loginName">Usuario</label>
+              <label class="form-label" for="loginName">UserName</label>
               <input type="user" v-model="loginName" id="loginName" class="form-control" />
             </div>
 
             <div class="form-outline mb-4">
-              <label class="form-label" for="loginPassword">Contraseña</label>
+              <label class="form-label" for="loginPassword">Password</label>
               <input type="password" v-model="loginPassword" id="loginPassword" class="form-control" />
             </div>
 
             <div class="button-container">
-              <button type="submit" id="botonAcceder" class="btn btn-block mb-4">Acceder</button>
+              <button @click="AdminView" type="submit" id="botonAcceder" class="btn btn-block mb-4">Submit</button>
             </div>
           </form>
         </div>
@@ -103,6 +113,7 @@ export default {
   color: white;
   font-weight: bold;
   width: 40%;
+  font-size: x-large;
 }
 
 .nav-link {
@@ -126,6 +137,7 @@ export default {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+  
 }
 
 </style>

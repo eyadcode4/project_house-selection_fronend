@@ -37,11 +37,11 @@ export default {
         </a>
   
       
-        <div class="d-flex align-items-center">
+        <!-- <div class="d-flex align-items-center">
           <button @click="showresult" type="button" class="btn btn-primary me-3">
             Show Result
           </button>
-        </div>
+        </div> -->
       </div>
     </nav>
 </template>

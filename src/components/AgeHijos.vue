@@ -51,11 +51,17 @@
       <br>
       <button @click="checkDetails" type="button">Show Result</button>
     </form>
+    <div>
+    <button @click="yourHouse" type="button" class="btn btn-primary me-3">Show My House</button>
+    </div>
+
   </div>
 </template>
 
 <script>
 import { ref } from "vue";
+import { useRouter } from 'vue-router';
+import YourHouse from "./YourHouse.vue";
 
 export default {
   setup() {
@@ -69,10 +75,17 @@ export default {
     const childrenMessage = ref("");
     const behaviorMessage = ref("");
 
+    
+    const logoSrc = ref(''); // Definir el estado usando ref
+    const router = useRouter(); // Obtener la instancia del enrutador
+
+    const yourHouse = () => {
+      // alert('Registro iniciado');
+      router.push('yourHouse'); // Navegar a 'shortanswer'
+    };
+
+
     const checkDetails = () => {
-
-      
-
       // Validación para la edad
       if (age.value === "under_30") {
         ageMessage.value = "You have less than 30 years. ";
@@ -120,7 +133,10 @@ export default {
       childrenMessage,
       behaviorMessage,
       checkDetails,
+      logoSrc,
+      yourHouse,
     };
+    
   },
 };
 </script>
@@ -165,5 +181,7 @@ button {
   padding: 10px 15px;
   font-size: 24px;
   cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: bolder;
 }
 </style>

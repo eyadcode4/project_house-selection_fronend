@@ -8,8 +8,6 @@
     methods: {
         yourhouse() {
         
-        //alert('Registro iniciado');
-      
       this.$router.push('yourhouse');
       },
     },
@@ -29,13 +27,9 @@
             style="margin-top: -1px;" 
           />
         </a>
-  
-      
-        <div class="d-flex align-items-center">
-          <button @click="yourhouse" type="button" class="btn btn-primary me-3">
-            Your House
-          </button>
-        </div>
+
+        <h1> Your house</h1>
+
       </div>
     </nav>
 </template>

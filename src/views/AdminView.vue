@@ -8,10 +8,10 @@ import NavShortAnswer from '@/components/NavShortAnswer.vue';
 <template>
     <div class="showresult">
       <header>
-        <NavShortAnswer></NavShortAnswer>
+        <!-- <NavShortAnswer></NavShortAnswer> -->
       </header>
 
-      <h1>short Result</h1>
+      <h1>Admin view</h1>
       
       
 
