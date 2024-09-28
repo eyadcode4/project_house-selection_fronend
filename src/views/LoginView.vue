@@ -1,6 +1,6 @@
 <script setup>
 
-import Age from '@/components/Age.vue';
+
 import Login from '@/components/Login.vue';
 
 </script>
@@ -13,7 +13,7 @@ import Login from '@/components/Login.vue';
 
       <h1>login</h1>
       <Login></Login>
-      <Age></Age>
+    
 
     </div>
   </template>
