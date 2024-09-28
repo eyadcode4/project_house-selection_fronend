@@ -1,6 +1,6 @@
 <script setup>
 
-import NavShortAnswer from '@/components/NavShortAnswer.vue';
+
 
 
 </script>
@@ -8,7 +8,7 @@ import NavShortAnswer from '@/components/NavShortAnswer.vue';
 <template>
     <div class="showresult">
       <header>
-        <!-- <NavShortAnswer></NavShortAnswer> -->
+        
       </header>
 
       <h1>Admin view</h1>
