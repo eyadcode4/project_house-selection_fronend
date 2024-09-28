@@ -5,9 +5,7 @@ export default {
       currentTab: 'login',
       loginEmail: '',
       loginPassword: '',
-      registerUsername: '',
-      registerPassword: '',
-      registerConfirmPassword: ''
+      
     };
   },
   methods: {
@@ -21,9 +19,7 @@ export default {
       console.log('Login with:', this.loginUser, this.loginPassword);
       this.$router.push('fullanswer');
     },
-    submitRegister() {
-      console.log('Register with:', this.registerUsername, this.registerPassword, this.registerConfirmPassword);
-    }
+    
   }
 };
 
@@ -38,11 +34,7 @@ export default {
              id="tab-login" href="#pills-login" role="tab"
              aria-controls="pills-login" :aria-selected="isActiveTab('login')">Acceder</a>
         </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" :class="{ active: isActiveTab('register') }" @click="setTab('register')"
-             id="tab-register" href="#pills-register" role="tab"
-             aria-controls="pills-register" :aria-selected="isActiveTab('register')">Registro</a>
-        </li>
+        
       </ul>
 
       <div class="tab-content">
@@ -64,28 +56,7 @@ export default {
           </form>
         </div>
 
-        <div class="tab-pane fade" :class="{ 'show active': isActiveTab('register') }" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
-          <form @submit.prevent="submitRegister">
-            <div class="form-outline mb-4">
-              <label class="form-label" for="registerUsername">Usuario</label>
-              <input type="text" v-model="registerUsername" id="registerUsername" class="form-control" />
-            </div>
-
-            <div class="form-outline mb-4">
-              <label class="form-label" for="registerPassword">Contraseña</label>
-              <input type="password" v-model="registerPassword" id="registerPassword" class="form-control" />
-            </div>
-
-            <div class="form-outline mb-4">
-              <label class="form-label" for="registerConfirmPassword">Confirmar Contraseña</label>
-              <input type="password" v-model="registerConfirmPassword" id="registerConfirmPassword" class="form-control" />
-            </div>
-
-            <div class="button-container">
-              <button type="submit" id="botonRegistrar" class="btn btn-block mb-4">Registrar</button>
-            </div>
-          </form>
-        </div>
+        
       </div>
     </div>
   </div>
@@ -127,7 +98,7 @@ export default {
   font-size: x-large;
 }
 
-#botonAcceder, #botonRegistrar {
+#botonAcceder {
   background-color: #514c9b;
   color: white;
   font-weight: bold;

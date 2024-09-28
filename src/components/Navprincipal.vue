@@ -5,12 +5,16 @@
         logoSrc: '', 
       };
     },
-    methods: {
+       methods: {
       consult() {
         
         //alert('Registro iniciado');
       
-      this.$router.push('consult');
+      this.$router.push({name: 'consult'});
+      },
+      login() {
+        this.$router.push({name: 'login' });
+
       },
     },
   };
@@ -25,11 +29,17 @@
           <img src="../assets/imag/logrealstate.webp" height="80" alt="Logo inmobiliaria" loading="lazy" style="margin-top: -1px;"/>
         </a>
         
-  
-      
         <div class="d-flex align-items-center">
           <button @click="consult" type="button" class="btn btn-primary me-3">
             Consult
+          </button>
+        </div>
+        
+  
+      
+        <div class="d-flex align-items-center">
+          <button @click="login" type="button" class="btn btn-primary me-3">
+            Login
           </button>
         </div>
       </div>
