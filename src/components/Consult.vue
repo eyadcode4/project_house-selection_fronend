@@ -78,6 +78,74 @@ export default {
    
   },
 };
+//
+// import { ref } from "vue";
+// import { useRouter } from 'vue-router';
+// import YourHouse from "./YourHouse.vue";
+
+
+// const location = ref("");
+// const age = ref("");
+// const children = ref("");
+// const behavior = ref("");
+// const mensaje = ref("");
+
+
+// const enviarSolicitud = async (event) => {
+//   event.preventDefault();
+
+
+//   const datosFormulario = {
+//     location: location.value,
+//     age: age.value,
+//     children: children.value,
+//     behavior: behavior.value,
+//   };
+
+
+//   try {
+//     const respuesta = await fetch("http://localhost:8080/api/v1/consult", {
+//       method: "POST",
+//       headers: {
+//         "Content-Type": "application/json",
+//       },
+//       body: JSON.stringify({
+//         location: datosFormulario.location,
+//         age: datosFormulario.age,
+//         children: datosFormulario.children,
+//         behavior: datosFormulario.behavior,
+//       }),
+//     });
+
+
+//     let datos;
+//     const contentType = respuesta.headers.get("content-type");
+
+
+//     if (contentType && contentType.includes("application/json")) {
+//       datos = await respuesta.json();
+//     } else {
+//       datos = {};
+//     }
+
+
+//     if (!respuesta.ok) {
+//       console.error("Error details:", datos);
+//       throw new Error(
+//         `Error al enviar la solicitud: ${
+//           datos.message || respuesta.statusText || "Unknown error"
+//         }`
+//       );
+//     }
+
+
+//     mensaje.value = "Solicitud enviada con éxito";
+//   } catch (error) {
+//     console.error("Fetch error:", error);
+//     mensaje.value = `Error: ${error.message}`;
+//   }
+// };
+
 </script>
 
 <template>
