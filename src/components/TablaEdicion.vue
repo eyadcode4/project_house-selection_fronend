@@ -105,7 +105,7 @@ onMounted(() => {
           <td>{{ solicitud.generalBehavior }}</td>
           <td>
             <img
-              src="../assets/edicionfinal.png"
+              src="../assets/edit.png"
               alt="Editar"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
@@ -114,7 +114,7 @@ onMounted(() => {
           </td>
           <td>
             <img
-              src="../assets/eliminarfinal.png"
+              src="../assets/delete.jpg"
               alt="Eliminar"
               @click="deleteSolicitud(solicitud.idConsult)"
             />
