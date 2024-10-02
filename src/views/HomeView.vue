@@ -6,15 +6,17 @@ import ButtonHome from "@/components/ButtonHome.vue";
 
 <template>
   <main>
+    <div id="buttonHome">
+      <ButtonHome></ButtonHome>
+    </div>
+    
     <div id="maintext">
       <MainHome></MainHome>
     </div>
     <div id="mainphoto">
       <HealthHome></HealthHome>
     </div>
-    <div id="buttonHome">
-      <ButtonHome></ButtonHome>
-    </div>
+    
   </main>
 </template>
 <style scoped>

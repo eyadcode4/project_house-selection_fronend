@@ -105,7 +105,7 @@ onMounted(() => {
           <td>{{ solicitud.generalBehavior }}</td>
           <td>
             <img
-              src="../assets/edit.png"
+              src="../assets/imag/edit.png"
               alt="Editar"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
@@ -114,7 +114,7 @@ onMounted(() => {
           </td>
           <td>
             <img
-              src="../assets/delete.jpg"
+              src="../assets/imag/delete.jpg"
               alt="Eliminar"
               @click="deleteSolicitud(solicitud.idConsult)"
             />
@@ -225,12 +225,15 @@ main {
   align-items: center;
 }
 table {
-  width: 70%;
+  width: 95%;
   border-collapse: collapse;
 }
 th {
-  background-color: #a52e22 !important;
+  background-color: #505bc6 !important;
   color: white;
+  font-size: 25px;
+  padding: 0 25px;
+  font-weight: bolder;
 }
 tr {
   background-color: #a52e22 !important;
