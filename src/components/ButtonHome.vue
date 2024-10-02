@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <main>
-    <RouterLink to="/formulario">
+    <RouterLink to="/Card">
       <a class="btn btn-primary btn-lg" href="#" btn-l role="button"
         >Acording to you needs: select house</a
       ></RouterLink
