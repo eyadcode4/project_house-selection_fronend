@@ -148,7 +148,7 @@ onMounted(() => {
               <div class="card-body">
                 <form @submit.prevent="updateSolicitud">
                   <div class="form-group">
-                    <label for="name">Nam</label>
+                    <label for="name">Name</label>
                     <input
                       v-model="editForm.name"
                       type="text"
@@ -169,13 +169,13 @@ onMounted(() => {
                   </div>
 
                   <div class="form-group">
-                    <label for="locationSite">locationSite</label>
+                    <label for="locationSite">location Site</label>
                     <select
                       v-model="editForm.locationSite"
                       class="form-control"
                       id="locationSite"
                     >
-                      <option>Select</option>
+                      
                       <option>Oviedo</option>
                       <option>Gijon</option>
                       
@@ -183,14 +183,19 @@ onMounted(() => {
                   </div>
 
                   <div class="form-group">
-                    <label for="generalBehavior">generalBehavior</label>
-                    <textarea
+                    <label for="generalBehavior">General Behavior</label>
+                    <select
                       v-model="editForm.generalBehavior"
                       class="form-control"
                       id="generalBehavior"
                       rows="4"
                       placeholder="generalBehavior"
-                    ></textarea>
+                      >
+                      
+                      <option>sportsman</option>
+                      <option>Not active</option>
+                      
+                    </select>
                   </div>
                   <div id="containerbutton">
                     <button type="submit" id="button" class="btn btn-primary">
@@ -223,10 +228,18 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bolder;
+  
 }
 table {
+ 
+  /* border-collapse: collapse; */
   width: 95%;
-  border-collapse: collapse;
+  border-collapse: separate; /* Necesario para que funcione el border-radius */
+  border-spacing: 0 10px; /* Espacio entre las filas para mostrar bien el borde redondeado */
+  font-size: 20px;
+  border: 4px solid blue;
+
 }
 th {
   background-color: #505bc6 !important;
@@ -234,12 +247,20 @@ th {
   font-size: 25px;
   padding: 0 25px;
   font-weight: bolder;
+  border: 2px solid blue;
+  border-radius: 10px;
+  
 }
 tr {
-  background-color: #a52e22 !important;
+  background-color: #3ed92d !important;
+  border: 4px solid blue;
+  
 }
 td {
-  background-color: #d67979 !important;
+  background-color: #e9be20 !important;
+  font-weight: bolder;
+  border: 2px solid blue;
+  border-radius: 10px;
 }
 img {
   width: 25px;
@@ -265,6 +286,7 @@ img {
 
   tr {
     margin-bottom: 10px;
+    
   }
 
   td {
@@ -293,15 +315,20 @@ img {
 
 main {
   padding: 20px;
+  
+  
 }
 .card {
-  background-color: #a52e22;
-  border-radius: 10px;
+  background-color: #1795a0;
+  
+ 
+  
 }
 select,
 textarea,
 input {
   background-color: #fae1e1;
+  font-weight: bolder;
 }
 label {
   color: white;
@@ -314,9 +341,10 @@ label {
   color: black;
   border: 2px solid #fae1e1;
   text-align: center;
+  font-weight: bolder;
 }
 #button:hover {
-  background-color: #a52e22;
+  background-color: #5c41e1;
   color: white;
 }
 #containerbutton {
@@ -328,14 +356,14 @@ option {
 }
 
 #buttonsecondary {
-  background-color: #a52e22;
+  background-color: #223ea5;
   color: white;
   border: 2px solid #fae1e1;
   text-align: center;
 }
 #buttonsecondary:hover {
   background-color: #fae1e1;
-  border: 2px solid #a52e22;
+  border: 2px solid #2eb422;
   color: black;
 }
 </style>

@@ -56,14 +56,14 @@ table {
   border-collapse: collapse;
 }
 th {
-  background-color: #a52e22 !important;
+  background-color: #8cd8e9 !important;
   color: white;
 }
 tr {
-  background-color: #a52e22 !important;
+  background-color: #8cd8e9 !important;
 }
 td {
-  background-color: #d67979 !important;
+  background-color: #8cd8e9 !important;
 }
 
 @media (max-width: 768px) {

@@ -5,7 +5,7 @@
     <div class="text-right p-3" style="background-color: rgba(0, 0, 0, 0.05)">
       © 2024 Copyright:
       <a class="text-body" href="https://github.com/eyadcode4"
-        >Eyad Atalah </a
+        > </a
       >
     </div>
     

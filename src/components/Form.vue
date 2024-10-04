@@ -87,7 +87,7 @@ const enviarSolicitud = async (event) => {
             <div class="form-group">
               <label for="locationSite">Site location</label>
               <select class="form-control" id="Location Site" v-model="locationSite">
-                <option value="" disabled>Select location</option>
+                
                 <option>Oviedo</option>
                 <option>Gijon</option>
               </select>
@@ -96,8 +96,8 @@ const enviarSolicitud = async (event) => {
             <div class="form-group">
               <label for="generalBehavior">General Behavior</label>
               <select class="form-control" id="generalBehavior" v-model="generalBehavior">
-                <option value="" disabled>Select behavior</option>
-                <option>Deportist</option>
+               
+                <option>sportsman</option>
                 <option>Not active</option>
               </select>
             </div>
@@ -130,11 +130,10 @@ main {
   padding: 20px;
 }
 .card {
-  background-color: #7a62db;
+  background-color: #6b4ce9;
   
 }
 select,
-textarea,
 input {
   background-color: #d1f9f3;
   font-size: 25px;

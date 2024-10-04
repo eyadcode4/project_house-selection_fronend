@@ -26,7 +26,7 @@ import ButtonHome from "@/components/ButtonHome.vue";
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #b8ec37;
+  background-color: #def5a3;
 }
 #mainphoto {
   float: right;
@@ -34,7 +34,7 @@ import ButtonHome from "@/components/ButtonHome.vue";
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #b8ec37;
+  background-color: #def5a3;
 }
 #buttonHome {
   background-color: #b8ec37;
