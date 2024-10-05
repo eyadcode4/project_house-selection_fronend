@@ -98,7 +98,9 @@ const enviarSolicitud = async (event) => {
               <select class="form-control" id="generalBehavior" v-model="generalBehavior">
                
                 <option>sportsman</option>
-                <option>Not active</option>
+                <option>Swimming</option>
+                <option>Rural zone</option>
+                <option>City center</option>
               </select>
             </div>
 

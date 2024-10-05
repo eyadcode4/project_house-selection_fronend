@@ -34,6 +34,38 @@ const router = createRouter({
       component: () => import("../views/Consultas.vue"),
     },
     {
+      path: "/house1",
+      name: "house1",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/House1View.vue"),
+    },
+    {
+      path: "/card1",
+      name: "card1",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/Card1View.vue"),
+    },
+    {
+      path: "/card2",
+      name: "card2",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/Card2View.vue"),
+    },
+    {
+      path: "/card3",
+      name: "card3",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/Card3View.vue"),
+    },
+    {
       path: "/edicion",
       name: "edicion",
       // route level code-splitting
