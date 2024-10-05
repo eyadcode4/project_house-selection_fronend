@@ -10,16 +10,19 @@
       >
     </li>
 
-    <li class="nav-item">
-      <RouterLink to="/edicion">
-        <a class="nav-link" href="#">Consult List</a></RouterLink
-      >
-    </li>
+    
     <li class="nav-item">
       <RouterLink to="/login">
         <a class="nav-link" href="#">Login</a></RouterLink
       >
     </li>
+
+    <li class="nav-item">
+      <RouterLink to="/edicion">
+        <a class="nav-link" href="#">Consult List</a></RouterLink
+      >
+    </li>
+    
   </ul>
 </template>
 <style scoped>

@@ -33,3 +33,8 @@ npm run build
 ```sh
 npm run test:unit
 ```
+
+House SElection
+
+The idea is before buy a house, there are some criteria to investigate. The proposal application suggests some criteria to see and investigate. There is a form to full, according to the filling word the application suggests a suitable house to buy. By WhatsApp chatting it may be take decision in a short time.
+
