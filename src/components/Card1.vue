@@ -6,23 +6,23 @@
     
     <div class="card" style="width: 12rem;">
       <div class="card-body">
-        <img src="../assets/imag/bank.jpg" class="card-img-top" alt="up">
-        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <img src="../assets/imag/exterior.jpg" class="card-img-top" alt="up">
+        
         <a href="https://www.lavanguardia.com/vida/20201022/484222012642/soy-esa-persona-que-vive-en-un-banco-cerca-de-tu-casa-tenia-una-vida-normal.html" target="_blank" class="btn" >Know More</a>
       </div>
     </div>
     
     <div class="card" style="width: 12rem;">
       <div class="card-body">
-        <img src="../assets/imag/hisp.jpg" class="card-img-top" alt="up">
-        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <img src="../assets/imag/garden.png" class="card-img-top" alt="up">
+        
         <a href="https://almanatura.com/2016/02/importancia-los-centros-salud-desarrollo-rural/" target="_blank" class="btn" >Know More</a>
       </div>
     </div>
     
     <div class="card" style="width: 12rem;">
       <div class="card-body">
-        <img src="../assets/imag/corte de luz.jpg" class="card-img-top" alt="up">
+        <img src="../assets/imag/peatonal1.png" class="card-img-top" alt="up">
         
         <a href="https://tarifaluzhora.es/info/corte-luz" target="_blank" class="btn" >Know More</a>
       </div>
@@ -30,14 +30,14 @@
     
     <div class="card" style="width: 12rem;">
       <div class="card-body">
-        <img src="../assets/imag/lift.jpg" class="card-img-top" alt="up">
+        <img src="../assets/imag/sea.jpg" class="card-img-top" alt="up">
         <a href="https://solidaridadintergeneracional.es/wp/no-hay-ascensor-en-tu-casa-si-tienes-mas-de-70-anos-tienes-derecho-a-pedir-que-lo-instalen/" target="_blank" class="btn"  >Know More</a>
       </div>
     </div>
     <div class="card" style="width: 12rem;">
       <div class="card-body">
-        <img src="../assets/imag/metro.png" class="card-img-top" alt="up">
-        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <img src="../assets/imag/sol.jpg" class="card-img-top" alt="up">
+        
         <a href="https://coes.cl/2018/10/01/prensa-como-influye-la-cercania-del-metro-en-el-valor-de-una-propiedad/" class="btn" target="_blank"  >Know More</a>
       </div>
     </div>
@@ -46,7 +46,7 @@
     <div class="card" style="width: 12rem;">
       <div class="card-body">
         <img src="../assets/imag/agua.png" class="card-img-top" alt="up">
-        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        
         <a href="https://alegria-realestate.com/es/articles/life-in-spain/how-much-is-paid-per-month-for-basic-supplies-in-spain" class="btn" target="_blank" >Know More</a>
       </div>
     </div>

@@ -32,7 +32,7 @@ main {
 a {
   background-color: #2147ce;
   padding: 5px 5px;
-  border-radius: 30px; /* Hacer el botón ovalado */
+  border-radius: 30px;
   color: white;
   text-align: center;
   text-decoration: none;

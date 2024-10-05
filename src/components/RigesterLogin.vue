@@ -120,7 +120,7 @@ export default {
   background-color: #D9D9D9;
   
   border: 1px solid var(--border-color);
-  border-radius: 10px;
+  border-radius: 30px;
   padding: 20px;
   max-width: 400px;
   width: 100%;
@@ -136,7 +136,7 @@ export default {
   font-weight: bold;
   font-size: 25px;
   width: 40%;
-  
+  border-radius: 30px;
 }
 
 .nav-link {
@@ -144,7 +144,7 @@ export default {
   color: #3d0101;
   font-weight: bold;
   margin-bottom: 40px;
-  
+  border-radius: 30px;
 }
 
 .nav-link.active {

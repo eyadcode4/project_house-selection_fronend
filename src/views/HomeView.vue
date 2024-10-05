@@ -20,6 +20,7 @@ import ButtonHome from "@/components/ButtonHome.vue";
   </main>
 </template>
 <style scoped>
+
 #maintext {
   float: left;
   width: 50%;

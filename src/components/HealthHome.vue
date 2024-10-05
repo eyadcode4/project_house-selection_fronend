@@ -15,6 +15,7 @@ main {
 }
 img {
   width: 800px;
+  border-radius: 80px;
 }
 @media (max-width: 768px) {
   main {

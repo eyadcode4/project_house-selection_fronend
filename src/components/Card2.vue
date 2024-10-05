@@ -16,13 +16,13 @@
     
     <div class="card" style="width: 12rem;">
       <div class="card-body">
-        <img src="../assets/imag/lift.jpg" class="card-img-top" alt="up">
+        <img src="../assets/imag/bank.jpg" class="card-img-top" alt="up">
         <a href="https://solidaridadintergeneracional.es/wp/no-hay-ascensor-en-tu-casa-si-tienes-mas-de-70-anos-tienes-derecho-a-pedir-que-lo-instalen/" target="_blank" class="btn"  >Know More</a>
       </div>
     </div>
     <div class="card" style="width: 12rem;">
       <div class="card-body">
-        <img src="../assets/imag/metro.png" class="card-img-top" alt="up">
+        <img src="../assets/imag/busStop.png" class="card-img-top" alt="up">
         <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
         <a href="https://coes.cl/2018/10/01/prensa-como-influye-la-cercania-del-metro-en-el-valor-de-una-propiedad/" class="btn" target="_blank"  >Know More</a>
       </div>
@@ -31,11 +31,39 @@
     
     <div class="card" style="width: 12rem;">
       <div class="card-body">
-        <img src="../assets/imag/agua.png" class="card-img-top" alt="up">
+        <img src="../assets/imag/hisp.jpg" class="card-img-top" alt="up">
         <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
         <a href="https://alegria-realestate.com/es/articles/life-in-spain/how-much-is-paid-per-month-for-basic-supplies-in-spain" class="btn" target="_blank" >Know More</a>
       </div>
     </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/pan.jpg" class="card-img-top" alt="up">
+        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <a href="#" class="btn" target="_blank" >Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/resturant.jpg" class="card-img-top" alt="up">
+        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <a href="#" class="btn" target="_blank" >Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/school.jpg" class="card-img-top" alt="up">
+        <h5 class="card-title"> ↘️ 100 ➡️ 44</h5>
+        <a href="#" class="btn" target="_blank" >Know More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 12rem;">
+      <div class="card-body">
+        <img src="../assets/imag/temp.jpg" class="card-img-top" alt="up">
+               <a href="#" class="btn" target="_blank" >Know More</a>
+      </div>
+    </div>
+
     
   </div>
 </template>
