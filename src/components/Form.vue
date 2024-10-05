@@ -1,11 +1,20 @@
 <script setup>
 import { ref } from "vue";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const name = ref("");
 const dateConsult = ref("");
 const locationSite = ref("");
 const generalBehavior = ref("");
 const mensaje = ref("");
+
+
+const phoneNumber = "0034666666666"; 
+const generateWhatsAppLink = () => {
+  const text = `Hello, my name is ${name.value}. I'd like to consult.`;
+  return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
+};
 
 const enviarSolicitud = async (event) => {
   event.preventDefault();
@@ -23,12 +32,7 @@ const enviarSolicitud = async (event) => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        name: datosConsult.name,
-        dateConsult: datosConsult.dateConsult,
-        locationSite: datosConsult.locationSite,
-        generalBehavior: datosConsult.generalBehavior,
-      }),
+      body: JSON.stringify(datosConsult),
     });
 
     let datos;
@@ -87,7 +91,6 @@ const enviarSolicitud = async (event) => {
             <div class="form-group">
               <label for="locationSite">Site location</label>
               <select class="form-control" id="Location Site" v-model="locationSite">
-                
                 <option>Oviedo</option>
                 <option>Gijon</option>
               </select>
@@ -96,7 +99,6 @@ const enviarSolicitud = async (event) => {
             <div class="form-group">
               <label for="generalBehavior">General Behavior</label>
               <select class="form-control" id="generalBehavior" v-model="generalBehavior">
-               
                 <option>sportsman</option>
                 <option>Swimming</option>
                 <option>Rural zone</option>
@@ -104,13 +106,21 @@ const enviarSolicitud = async (event) => {
               </select>
             </div>
 
-            
             <div id="containerbutton">
               <button type="submit" id="button" class="btn btn-primary">
                 submit
               </button>
             </div>
           </form>
+          
+          
+          <div class="whatsapp-icon mt-3">
+            <a :href="generateWhatsAppLink()" target="_blank">
+              <font-awesome-icon :icon="faWhatsapp" size="2x" />
+              Contact us on WhatsApp
+            </a>
+          </div>
+
           <div
             v-if="mensaje"
             class="alert mt-3"
@@ -133,7 +143,7 @@ main {
 }
 .card {
   background-color: #6b4ce9;
-  
+  width: 500px;
 }
 select,
 input {
@@ -142,7 +152,6 @@ input {
 }
 label {
   color: white;
-  
 }
 .form-group {
   padding: 10px;
@@ -170,7 +179,6 @@ option {
 }
 .alert {
   padding: 10px;
- 
 }
 .alert-success {
   background-color: #d4edda;
@@ -179,5 +187,17 @@ option {
 .alert-danger {
   background-color: #f8d7da;
   color: #721c24;
+}
+.whatsapp-icon a {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  color: #25d366;
+  font-size: 33px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.whatsapp-icon a:hover {
+  color: #128c7e;
 }
 </style>
