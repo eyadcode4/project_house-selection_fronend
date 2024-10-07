@@ -134,7 +134,7 @@ onMounted(() => {
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Editar Consulta</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Consult edit</h5>
             <button
               type="button"
               class="btn-close"
@@ -214,7 +214,7 @@ onMounted(() => {
               class="btn btn-secondary"
               data-bs-dismiss="modal"
             >
-              Cerrar
+              Close
             </button>
           </div>
         </div>
